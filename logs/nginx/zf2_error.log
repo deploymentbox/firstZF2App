@@ -1,0 +1,111 @@
+2015/06/20 20:47:19 [error] 5#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to load ZF2. Run `php composer.phar install` or define a ZF2_PATH environment variable.' in /var/www/zf2/init_autoloader.php:51
+Stack trace:
+#0 /var/www/zf2/public/index.php(18): require()
+#1 {main}
+  thrown in /var/www/zf2/init_autoloader.php on line 51" while reading response header from upstream, client: 172.17.42.1, server: zf2.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.221:9000", host: "localhost"
+2015/06/20 20:47:34 [error] 5#0: *2 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Unable to load ZF2. Run `php composer.phar install` or define a ZF2_PATH environment variable.' in /var/www/zf2/init_autoloader.php:51
+Stack trace:
+#0 /var/www/zf2/public/index.php(18): require()
+#1 {main}
+  thrown in /var/www/zf2/init_autoloader.php on line 51" while reading response header from upstream, client: 172.17.42.1, server: zf2.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.221:9000", host: "localhost"
+2015/06/20 21:06:00 [error] 5#0: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Application\Controller\DbAdapter' not found in /var/www/zf2/module/Application/src/Application/Controller/IndexController.php on line 20" while reading response header from upstream, client: 172.17.42.1, server: zf2.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.221:9000", host: "localhost"
+2015/06/20 21:06:03 [error] 5#0: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Application\Controller\DbAdapter' not found in /var/www/zf2/module/Application/src/Application/Controller/IndexController.php on line 20" while reading response header from upstream, client: 172.17.42.1, server: zf2.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.221:9000", host: "localhost"
+2015/06/20 21:06:16 [error] 5#0: *16 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Application\Controller\DbAdapter' not found in /var/www/zf2/module/Application/src/Application/Controller/IndexController.php on line 20" while reading response header from upstream, client: 172.17.42.1, server: zf2.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://172.17.0.221:9000", host: "localhost"
+2015/06/20 21:17:59 [error] 7#0: *46 FastCGI sent in stderr: "PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 20
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 20
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 20
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/applicatio
+2015/06/20 21:20:34 [error] 7#0: *53 FastCGI sent in stderr: "PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/applicatio
+2015/06/20 21:21:30 [error] 7#0: *61 FastCGI sent in stderr: "PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/applicatio
+2015/06/20 21:21:40 [error] 7#0: *61 FastCGI sent in stderr: "PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/applicatio
+2015/06/20 21:23:16 [error] 7#0: *72 FastCGI sent in stderr: "PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/applicatio
+2015/06/20 21:23:35 [error] 7#0: *77 FastCGI sent in stderr: "PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 16
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/applicatio
+2015/06/20 21:24:07 [error] 7#0: *83 FastCGI sent in stderr: "PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 18
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 19
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/application/index/index.phtml on line 17
+PHP message: PHP Notice:  Trying to get property of non-object in /var/www/zf2/module/Application/view/applicatio
